@@ -161,21 +161,20 @@ Grid must be wrap in row
 
 ## 6. Color palette
 
-White
-`.white`
+| Color | 1  |  2 | 3 |
+| ------- | --- | --- | --- |
+| white | #ffffff |  |  |
+| black | #000000 |  |  |
+| grey-dark | #202020 | #404040 | #606060  |
+| grey-lighten | #efefef | #dedede | #cdcdcd  |
 
-Black
-`.black`
 
-Grey
-`.grey`
-
-Indigo
-`.indigo`
 
 - Add `text- ` prefix before the defined color class to apply it on text 
 
 - `darken-1` , `darken-2` and `darken-3` gives option to play with strongness of the color 
+
+- `lighten-1` , `lighten-2` and `lighten-3` gives option to play with lightness of the color 
 
 ## 7. form
 
