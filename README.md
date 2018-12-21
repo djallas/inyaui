@@ -163,18 +163,18 @@ Grid must be wrap in row
 
 | Color | 1  |  2 | 3 |
 | ------- | --- | --- | --- |
-| white | #ffffff |  |  |
-| black | #000000 |  |  |
-| grey-dark | #202020 | #404040 | #606060  |
-| grey-lighten | #efefef | #dedede | #cdcdcd  |
+| .white | #ffffff | - | - |
+| .black | #000000 | - | - |
+| .grey- | #202020 | #404040 | #606060  |
+| .grey- | #efefef | #dedede | #cdcdcd  |
 
 
 
 - Add `text- ` prefix before the defined color class to apply it on text 
 
-- `darken-1` , `darken-2` and `darken-3` gives option to play with strongness of the color 
+- `-darken-1` , `-darken-2` and `-darken-3` gives option to play with strongness of the color 
 
-- `lighten-1` , `lighten-2` and `lighten-3` gives option to play with lightness of the color 
+- `-lighten-1` , `-lighten-2` and `-lighten-3` gives option to play with lightness of the color 
 
 ## 7. form
 
@@ -199,9 +199,53 @@ Initiate button
 If your wrap to wrap image to fix the width of a container, you must add `.image` in the parent container of a image
 
 
+## 10. Header 
+
+Example of Header
+
+```
+   <header class="black shadow-2">
+         <nav>
+            <a href="#" class="left l-padding hide-on-large">
+               <span class="fas fa-bars xl-text text-white"></span>
+            </a>
+            <div class="logo left">
+                  <img src="images/logo.png" alt="Logo | Inyarwanda">
+            </div>
+            <span class="right right-align">
+                  <a href="#" class="l-padding">
+                     <span class="fas fa-search xl-text text-white"></span>
+                  </a>
+                  <a href="#" class="l-padding">
+                     <span class="fas fa-bars xl-text text-white"></span>
+                  </a>
+            </span>
+         </nav>
+   </header>
+```
+
+## 11. Card 
+
+Example of a card
+
+```
+<div class="card">
+    <div class="image">
+        <img src="images/placeholder.jpg" alt="image" >
+    </div>
+    <h2>
+        <a href="#">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint quas debitis.   
+        </a>
+    </h2>
+</div>
+
+```
+
 # Author: 
 
 ### Gilles Kagarama
 
 [Twitter: @kagaramag](https://www.twitter/kagaramag)
+
 [Scotch.io: @kagarama](https://scotch.io/@gilles)
