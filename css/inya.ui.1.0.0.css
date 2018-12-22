@@ -8,6 +8,7 @@ a{text-decoration: none!important}
 .container {margin: 0 auto;max-width:780px;}
 /* header{position: fixed;width:100%;top:0;z-index:2;} */
 header{z-index:15000;position: fixed;top:0;}
+header [class^=inya-]{position:relative;left:0;font-size:2em;top:0.2em}
 .mainmenu{padding:0.2em 0}
 .mainmenu li{padding:0.7em}
 .mainmenu a{padding:0.8em;font-size:1em}
