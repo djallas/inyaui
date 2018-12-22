@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Inyarwanda - Article</title>
-   <meta name="description" content="Welcome to Inyarwanda UI Framework">
-   <meta name="keywords" content="Homepage">
-   <meta name="author" content="Gilles Kagarama">
-   <link rel="stylesheet" href="css/inya.ui.1.0.0.css">
-   <link rel="stylesheet" href="css/palette.1.0.0.css">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">    
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Inyarwanda - Article</title>
+      <meta name="description" content="Welcome to Inyarwanda UI Framework">
+      <meta name="keywords" content="Homepage">
+      <meta name="author" content="Gilles Kagarama">
+      <style>
+      body{margin:auto;position: relative;top:55px;font:0.8em 'Open Sans', sans-serif}
+      article,aside,footer,header,nav,section{display:block;padding:.001em 0;width:100%;clear:both;float:none}
+      .row{margin-left:0;margin-right:0;width:100%}.l1,.l2,.l3,.l4,.m1,.m2,.m3,.m4,.s1,.s2,.s3,.s4{margin:0 .5%;float:left}.l4,.m4,.s4{width:99%}.l3,.m3,.s3{width:74%}.l2,.m2,.s2{width:49%}.l1,.m1,.s1{width:24%}@media screen and (min-width:1000px){.l-text{font-size:1.8em}.m-text{font-size:1.3em}.s-text{font-size:.8em}.container{width:98%}.hide-on-large{display:none}.m1,.s1{width:auto}.l1{width:24%!important}.l2{width:49%!important}.l3{width:74%!important}.l4{width:99%!important}}@media screen and (min-width:761px) and (max-width:999px){.l-text{font-size:1.5em}.m-text{font-size:1.1em}.s-text{font-size:.5em}.container{width:96%}.hide-on-medium{display:none}.s1{width:auto}.m1{width:24%!important}.m2{width:49%!important}.m3{width:74%!important}.m4{width:99%!important}.l1{width:auto}}@media screen and (max-width:760px){.l-text{font-size:1.2em}.m-text{font-size:.9em}.s-text{font-size:.3em}.container{width:98%}.hide-on-small{display:none}.s1{width:24%!important}.s2{width:49%!important}.s3{width:74%!important}.s4{width:99%!important}.l1,.m1{width:auto}}
+      </style> 
 </head>
 <body>
    <!-- start header -->
    <header class="black shadow-2">
          <nav>
             <a href="#" class="left black l-padding hide-on-large" onclick="toggleSidebar();return false;">
-               <span class="fas fa-bars xl-text text-white"></span>
+               <span class="inya-bars l-text text-white"></span>
             </a>
             <div class="logo left">
                   <a href="index.html">
@@ -26,7 +28,7 @@
             </div>
             <span class="right">
                <a href="search/html" class="left l-padding">
-                  <span class="fas fa-search xl-text text-white"></span>
+                  <span class="inya-search l-text text-white"></span>
                </a>
             </span>
             <div class="clear"></div>
@@ -41,47 +43,72 @@
       <div class="container">                 
             <!-- article -->
             <div class="row">
-               <div class="l-padding">
-                  <h2 class="nm">
+               <div class="l-padding text-black l-text">
+                  <h1>
                      Watoto Children's Choir iri kubarizwa i Kigali yatangarije abanyamakuru ibyihariye bizaranga igitaramo igiye kuhakorera-AMAFOTO
-                  </h2>
+                  </h1>
+                       <!-- lead -->
+                  <!-- info about article -->
+                  <div class="l-v-margin">
+                              <a href="#"> <span class="inya-user"></span> Yvonne Murekatete</a> <span class="inya-calendar"></span>  21/12/2018 18:01
+                        </div>
                   <div>
-
+                        Abakiriya bakoresha ibikoresho bitanga serivisi zitandukanye byifashishije ijwi ry’umuntu buzwi nka Amazon Alexa, bamaganye iyi sosiyete nyuma yo gushyirirwa hanze amajwi yabo y’ubuzima bwite.
+                  </div> 
+                  <div class="divider grey l-v-margin"></div> 
+                  <div>
+                        Amazon Alexa ni uburyo bukoreshwa na buri wese abwira iki gikoresho kizwi nka Amazon Echo kugira ngo kimuhe serivisi akeneye zirimo nko kumukinira imiziki, gushaka urubuga runaka kuri internet kugura ibintu bitandukanye wifashishije ijwi ryawe.
+                        <br>
+                        Byagiye bivugwa ko Amazon ikoresha utu twuma yumviriza amajwi y’abantu uko amajwi akoreshwa hirya no hino ku isi. Hari amakuru avuga ko avuga ko aya majwi abikwa hamamijwe kuzamura ireme ry’uburyo utu tumashini twumva abakiriya bayo.Tekereza uramutse warashyize utu twuma hose mu nzu yawe hose ku buryo ijwi ryose ryumvwa n’utu twuma, nyuma ukumva amajwi yawe yose yoherejwe abandi kandi benshi.
+                        <br>
+                        Ibi ni byo byabaye ku mugore wo muri leta zunze ubumwe z’Amerika ubwo yisangaga ahamagawe abwirwa ko agomba kuzimya Amazon Echo kuko amajwi ye yari akumva n’abandi bantu amahirwe yagize ni uko harimo inshuti ye .Ibi byamenyekanye ubwo umuntu umwe yari asabye amajwi ye yafashwe n’iki gikoresho cya Amazon Echo akohererezwa amajwi 1700 y’umuntu atazi yari afite amakuru ahagije ku buryo buri wese yashoboraga kumenya nyir’ayo makuru.
+                        <br>
+                        Isosiyete ya Amazon yari yabanje kwanga kugira icyo ibivugaho ,imaze kumenya ko inkuru igiye kushyirwa hanze yemeye ko habaye ko kwibeshya ihita inasimbuza ibi bikoresho uyu mugore yari afite ibindi bishya. 
                   </div>
-               
                </div>
             </div>
            
       </div>
    </section>
-   <!-- footer -->
-   <footer class="black text-white center-align">
-      <div class="row clear grey-3 footer-links">
-            <div class="s2 m2 l2">
-                  <a href="index.html">Imyidagaduro</a>
-                  <a href="index.html">Imikino</a>
-                  <a href="index.html">Iyobokamana</a>
-                  <a href="index.html">Amakuru ku Rwanda</a>
-                  <a href="index.html">Urukundo</a>
-                  <a href="index.html">Ubuzima</a>
-                  <a href="index.html">Kwamamaza</a>
+      <!-- footer -->
+      <footer class="black text-white center-align">
+            <div class="row clear grey-3 footer-links">            
+                  <div class="s4 m4 l4 left-align">
+                        <ul class="list-inline">
+                              <li><a href="http:facebook/"> <span class="inya-facebook"></span> Facebook </a></li>
+                              <li><a href="http:twitter"> <span class="inya-twitter"></span> Twitter </a></li>
+                              <li><a href="http:Youtube"> <span class="inya-instagram"></span> Instagram </a></li>
+                        </ul>
+                  </div>
+                  <div class="divider grey-2"></div>
+                  <div class="s2 m2 l2">
+                        <a href="index.html">Imyidagaduro</a>
+                        <a href="index.html">Imikino</a>
+                        <a href="index.html">Iyobokamana</a>
+                        <a href="index.html">Amakuru ku Rwanda</a>
+                        <a href="index.html">Urukundo</a>
+                        <a href="index.html">Ubuzima</a>
+                        <a href="index.html">Kwamamaza</a>
+                  </div>
+                  <div class="s2 m2 l2">
+                        <a href="index.html">Amateka</a>
+                        <a href="index.html">Cinema</a>
+                        <a href="index.html">Ikoranabuhanga</a>
+                        <a href="index.html">Ubukungu</a>
+                        <a href="index.html">Abantu</a>
+                        <a href="index.html">Indirimbo</a>
+                        <a href="index.html">Abahanzi</a>
+                  </div>
             </div>
-            <div class="s2 m2 l2">
-                  <a href="index.html">Amateka</a>
-                  <a href="index.html">Cinema</a>
-                  <a href="index.html">Ikoranabuhanga</a>
-                  <a href="index.html">Ubukungu</a>
-                  <a href="index.html">Abantu</a>
-                  <a href="index.html">Indirimbo</a>
-                  <a href="index.html">Abahanzi</a>
-                  <a href="index.html">Imyidagaduro</a>            </div>
-      </div>
-      <div class="divider grey-2"></div>
-      <div class="copyright">
-            Copyright © 2008-2018 Inyarwanda Ltd
-      </div>
-   </footer>
-  <!-- scripts -->
-  <script src="scripts/scripts.js"></script>
+            <div class="divider grey-2"></div>
+            <div class="copyright">
+                  Copyright © 2008-2018<br> Inyarwanda Ltd
+            </div>
+      </footer>
+      <!-- scripts -->
+      <link rel="stylesheet" href="css/inya.ui.1.0.0.css">
+      <link rel="stylesheet" href="css/palette.1.0.0.css">
+      <link rel="stylesheet" href="css/icons.1.0.0.min.css">
+      <script src="scripts/scripts.js"></script>
 </body>
 </html>
