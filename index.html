@@ -5,51 +5,213 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>Inyarwanda - Home</title>
-   <meta name="description" content="Welcome to UI Framework">
+   <meta name="description" content="Welcome to Inyarwanda UI Framework">
    <meta name="keywords" content="Homepage">
    <meta name="author" content="Gilles Kagarama">
    <link rel="stylesheet" href="css/inya.ui.1.0.0.css">
+   <link rel="stylesheet" href="css/palette.1.0.0.css">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">    
 </head>
 <body>
    <!-- start header -->
    <header class="black shadow-2">
          <nav>
-            <a href="#" class="left l-padding hide-on-large" onclick="toggleSidebar();return false;">
+            <a href="#" class="left black l-padding hide-on-large" onclick="toggleSidebar();return false;">
                <span class="fas fa-bars xl-text text-white"></span>
             </a>
             <div class="logo left">
-                  <img src="images/logo.png" alt="Logo | Inyarwanda">
+                  <a href="index.html">
+                        <img src="images/logo.png" alt="Logo | Inyarwanda">
+                  </a>
             </div>
             <span class="right">
-                  <a href="#" class="left l-padding">
-                     <span class="fas fa-search xl-text text-white"></span>
-                  </a>
-                  <a href="#" class="left l-padding">
-                     <span class="fas fa-bars xl-text text-white"></span>
-                  </a>
+               <a href="search/html" class="left l-padding">
+                  <span class="fas fa-search xl-text text-white"></span>
+               </a>
             </span>
+            <div class="clear"></div>
          </nav>
-         <div class="clear"></div>
    </header>
   <!-- end header -->
    <section>
       <div class="container">
-         <div class="row">
-            <!-- content card  -->
-            <div class="card">
-               <div class="image">
-                  <img src="images/img2.jpg" alt="Article" >
-               </div>
-               <h2>
-                  <a href="#">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint quas debitis.   
-                  </a>
-               </h2>
+            <!-- featured articles -->
+            <div class="row">
+                  <!-- content card  -->
+                  <div class="card">
+                        <div class="image radius-2">
+                              <a href="#">
+                              <img src="http://inyarwanda.com/app/webroot/img/201812/images/logo-9193431545397675.JPG" alt="Article" >
+                              </a>
+                        </div>
+                        <div class="card-content center-align">
+                              <h2>
+                                    <a href="#">
+                                          Watoto Children's Choir iri kubarizwa i Kigali yatangarije abanyamakuru ibyihariye bizaranga igitaramo igiye kuhakorera-AMAFOTO
+                                    </a>
+                              </h2>
+                              <div>
+                                          Urban Boys ni itsinda ryubashywe muri muzika y'u Rwanda, aba mu minsi ishize bagize ikibazo cyatumye umwe mubo batangiranye ava mu itsinda ryabo. abasore bari batangiye ari batatu basigara ari babiri. Humble na Nizzo Kaboss nibo kuri ubu basigaranye itsinda. Magingo aya aba bahanzi bashyize hanze indirimbo bakoranye na Babo.
+                              </div>
+                              <span class="timestamp text-grey"> 1 ago </span>
+                        </div>
+                  </div>
+                  <!-- end card -->
+            
+                  <!-- Repeat row for looping -->
+                  <div class="row clear m-v-padding">
+                        <a href="#">
+                              <div class="s1 m1 l1 image radius-1">
+                                    <img src="http://inyarwanda.com/app/webroot/img/201812/images/small_thumbs/2-3310121545391449.jpg" alt="Article" >
+                              </div>
+                              <div class="s3 m3 l3">
+                                    <div class="l-h-padding">
+                                          <h2 class="nm m-text">
+                                                Danny Vumbi umwanditsi w'indirimbo ukomeye mu Rwanda, Reba indirimbo yanditse mu mwaka wa 2018
+                                          </h2>                              
+                                          <span class="timestamp text-grey"> 1 ago </span>
+                                    </div>
+                              </div>
+                        </a>
+                  </div>
+                  <!-- Repeat row for looping -->
+                  <div class="row clear m-v-padding">
+                        <a href="#">
+                        <div class="s1 m1 l1 image radius-1">
+                              <img src="http://inyarwanda.com/app/webroot/img/201812/images/2-4767541545457830.jpg" alt="Article" >
+                        </div>
+                        <div class="s3 m3 l3">
+                              <div class="l-h-padding">
+                                    <h2 class="nm m-text">
+                                                Urban Boys bashyize hanze indi ndirimbo bakoranye na Babo bise "Turn Up" -VIDEO
+                                    </h2>                              
+                                    <span class="timestamp text-grey"> 1 ago </span>
+                              </div>
+                        </div>
+                        </a>
+                  </div>           
+            
+                  <!-- Repeat row for looping -->
+                  <div class="row clear m-v-padding">
+                        <a href="#">
+                              <div class="s1 m1 l1 image radius-1">
+                                    <img src="http://inyarwanda.com/app/webroot/img/201812/images/small_thumbs/2-3310121545391449.jpg" alt="Article" >
+                              </div>
+                              <div class="s3 m3 l3">
+                                    <div class="l-h-padding">
+                                          <h2 class="nm m-text">
+                                                Danny Vumbi umwanditsi w'indirimbo ukomeye mu Rwanda, Reba indirimbo yanditse mu mwaka wa 2018
+                                          </h2>                              
+                                          <span class="timestamp text-grey"> 1 ago </span>
+                                    </div>
+                              </div>
+                        </a>
+                  </div>
+                  <!-- Repeat row for looping -->
+                  <div class="row clear m-v-padding">
+                        <a href="#">
+                        <div class="s1 m1 l1 image radius-1">
+                              <img src="http://inyarwanda.com/app/webroot/img/201812/images/2-4767541545457830.jpg" alt="Article" >
+                        </div>
+                        <div class="s3 m3 l3">
+                              <div class="l-h-padding">
+                                    <h2 class="nm m-text">
+                                                Urban Boys bashyize hanze indi ndirimbo bakoranye na Babo bise "Turn Up" -VIDEO
+                                    </h2>                              
+                                    <span class="timestamp text-grey"> 1 ago </span>
+                              </div>
+                        </div>
+                        </a>
+                  </div>           
+            
             </div>
-         </div>
+            <!-- popular -->
+            <h2 class="white-text m-text title">
+                  <span class="black text-white">Inkuru Twaguhitiyemo</span>
+            </h2>            
+            <!-- Repeat row for looping -->
+            <div class="row clear m-v-padding">
+                  <a href="#">
+                        <div class="s1 m1 l1 image radius-1">
+                              <img src="http://inyarwanda.com/app/webroot/img/201812/images/small_thumbs/2-3310121545391449.jpg" alt="Article" >
+                        </div>
+                        <div class="s3 m3 l3">
+                              <div class="l-h-padding">
+                                    <h2 class="nm m-text">
+                                          Danny Vumbi umwanditsi w'indirimbo ukomeye mu Rwanda, Reba indirimbo yanditse mu mwaka wa 2018
+                                    </h2>                              
+                                    <span class="timestamp text-grey"> 1 ago </span>
+                              </div>
+                        </div>
+                  </a>
+            </div>
+            <!-- Repeat row for looping -->
+            <div class="row clear m-v-padding">
+                  <a href="#">
+                  <div class="s1 m1 l1 image radius-1">
+                        <img src="http://inyarwanda.com/app/webroot/img/201812/images/2-4767541545457830.jpg" alt="Article" >
+                  </div>
+                  <div class="s3 m3 l3">
+                        <div class="l-h-padding">
+                              <h2 class="nm m-text">
+                                          Urban Boys bashyize hanze indi ndirimbo bakoranye na Babo bise "Turn Up" -VIDEO
+                              </h2>                              
+                              <span class="timestamp text-grey"> 1 ago </span>
+                        </div>
+                  </div>
+                  </a>
+            </div>           
+                  
+            <!-- Repeat row for looping -->
+            <div class="row clear m-v-padding">
+                  <a href="#">
+                        <div class="s1 m1 l1 image radius-1">
+                              <img src="http://inyarwanda.com/app/webroot/img/201812/images/small_thumbs/2-3310121545391449.jpg" alt="Article" >
+                        </div>
+                        <div class="s3 m3 l3">
+                              <div class="l-h-padding">
+                                    <h2 class="nm m-text">
+                                          Danny Vumbi umwanditsi w'indirimbo ukomeye mu Rwanda, Reba indirimbo yanditse mu mwaka wa 2018
+                                    </h2>                              
+                                    <span class="timestamp text-grey"> 1 ago </span>
+                              </div>
+                        </div>
+                  </a>
+            </div>
+            <!-- Repeat row for looping -->
+            <div class="row clear m-v-padding">
+                  <a href="#">
+                  <div class="s1 m1 l1 image radius-1">
+                        <img src="http://inyarwanda.com/app/webroot/img/201812/images/2-4767541545457830.jpg" alt="Article" >
+                  </div>
+                  <div class="s3 m3 l3">
+                        <div class="l-h-padding">
+                              <h2 class="nm m-text">
+                                          Urban Boys bashyize hanze indi ndirimbo bakoranye na Babo bise "Turn Up" -VIDEO
+                              </h2>                              
+                              <span class="timestamp text-grey"> 1 ago </span>
+                        </div>
+                  </div>
+                  </a>
+            </div>  
       </div>
    </section>
+   <footer class="black text-white center-align">
+      <div class="row clear grey-3 footer-links">
+            <div class="s2 m2 l2">
+                  <a href="index.html">Imyidagaduro</a>
+                  <a href="index.html">Imyidagaduro</a>
+            </div>
+            <div class="s2 m2 l2">
+                  <a href="index.html">Imyidagaduro</a>
+                  <a href="index.html">Imyidagaduro</a>
+            </div>
+      </div>
+      <div class="divider grey-2"></div>
+      <div class="copyright">
+            Copyright © 2008-2018 Inyarwanda Ltd
+      </div>
+   </footer>
   <!-- scripts -->
   <script src="scripts/scripts.js"></script>
 </body>
