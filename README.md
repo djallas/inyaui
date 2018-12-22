@@ -2,9 +2,9 @@
 
 ## How to use UI Framework?
 To get started, you must call your css file in your html page
-
+```
 <link rel="stylesheet" href="css/inyaui.1.0.0.css">
-
+```
 
 ### Font family used: 
 
@@ -53,6 +53,10 @@ Indigo
 
 ### Clearfix
 `.clear`
+```
+<div class="clear"></div>
+```
+
 
 #### Aligment
 
@@ -69,6 +73,7 @@ Right
 ## 2. Playing with Padding
 
 **-h-** indicate that the property is applied horizontally on a given selector
+
 **-v-** indicate that the property is applied veritically on a given selector
 
 Small padding
@@ -104,6 +109,7 @@ Extra large padding
 ## 3. Playing with Margin
 
 **-h-** indicate that the property is applied horizontally on a given selector
+
 **-v-** indicate that the property is applied veritically on a given selector
 
 Small margin
@@ -154,6 +160,11 @@ Extra-extra large text
 
 Grid must be wrap in row
 `.row`
+```
+<div class="row">
+    //content
+</div>
+```
 
 |  | Small  |  Medium | Large |
 | ------- | --- | --- | --- |
@@ -193,11 +204,19 @@ Input, textarea, radio, checkbox and button must be in `.input-field` `div` or `
 Initiate button
 `.btn`
 
+```
+<button class="btn">Button</button>
+```
 
 ## 9. Managing Image
 
 If your wrap to wrap image to fix the width of a container, you must add `.image` in the parent container of a image
 
+```
+<div class="image">
+    <img src="images/img2.jpg" alt="Article" >
+</div>
+```
 
 ## 10. Header 
 
@@ -229,16 +248,21 @@ Example of Header
 Example of a card
 
 ```
-<div class="card">
-    <div class="image">
-        <img src="images/placeholder.jpg" alt="image" >
+    <div class="card">
+        <div class="image radius-2">
+            <a href="#">
+                <img src="placeholder.jpg" alt="Article" >
+            </a>
+        </div>
+        <div class="card-content center-align">
+            <h2>
+                <a href="#">
+                        Watoto Children's Choir iri kubarizwa i Kigali yatangarije abanyamakuru ibyihariye bizaranga igitaramo igiye kuhakorera-AMAFOTO
+                </a>
+            </h2>
+            <span class="timestamp"> 1 ago </span>
+        </div>
     </div>
-    <h2>
-        <a href="#">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint quas debitis.   
-        </a>
-    </h2>
-</div>
 
 ```
 
