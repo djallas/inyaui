@@ -29,3 +29,6 @@ h1,h2,h3,h4,h5,h1 a,h2 a,h3 a,h4 a,h5 a{color:#101010}
 .b-black{border-color: #cc1f1f}
 .b-red{border-color: #c62828 }
 .b-grey{border-color:#cdcdcd}
+
+.chip{color:#252525;background:#cdcdcd}
+.chip a{color:#252525;}
