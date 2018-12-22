@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Rambla');
 /* preset */
-body{margin:0;font-family:'Open Sans', sans-serif}
+body{margin:auto;position: relative;top:55px;font-family:'Open Sans', sans-serif}
 a{text-decoration: none!important}
 article,
 aside,
@@ -18,7 +18,7 @@ section {
 /* container */
 .container {margin: 0 auto;max-width:780px;}
 /* header{position: fixed;width:100%;top:0;z-index:2;} */
-header{z-index:15000;}
+header{z-index:15000;position: fixed;top:0;}
 .mainmenu{padding:0.2em 0}
 .mainmenu li{padding:0.7em}
 .mainmenu a{padding:0.8em;font-size:1em}
