@@ -43,6 +43,9 @@ ul{margin:0}
 .list-inline li{display:inline-block;}
 .list-block li{display:block}
 
+/* lists with icon avatar */
+ul.avatar li{position: relative;padding-left:45px}
+ul.avatar li [class^=inya-] {position: absolute;top:5px;left:5px}
 
 
 .avatar{margin:0;padding: 0}
@@ -148,12 +151,19 @@ form{margin:0.5%;width:99%;clear: both;}
     border:1px solid #959595;
     border-radius: 25px
 }
-.input-field input:focus {
-    border:1px solid #cdcdcd!important;
+.input-field input:focus, .input-field textarea:focus {
+    border:1px solid #3cb44a!important;
     outline:none!important;
     box-shadow:0px 0px 5px rgba(0,0,0,0.4)!important;
     -moz-box-shadow:0px 0px 5px rgba(0,0,0,0.4)!important;
     -webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.4)!important;
+}
+.input-field textarea{
+    min-height: 20px;
+    resize: none
+}
+*:focus {
+    outline: none;
 }
 /* shadow */
 .shadow-1{box-shadow: 0 0 5px rgba(0,0,0,0.2)}
@@ -206,3 +216,9 @@ form{margin:0.5%;width:99%;clear: both;}
 
 /* article body */
 .artbody{font-size: 16px}
+.artbody p{margin:8px 0}
+
+/* wrap comment */
+.wrapcomment{border:1px solid #cdcdcd;padding: 8px}
+.wrapcomment li{padding:10px 0;border-bottom:1px solid #dedede;}
+.wrapcomment li:last-child{border:none}
