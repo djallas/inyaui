@@ -32,3 +32,9 @@ h1,h2,h3,h4,h5,h1 a,h2 a,h3 a,h4 a,h5 a{color:#101010}
 
 .chip{color:#252525;background:#cdcdcd}
 .chip a{color:#252525;}
+
+
+#sidebar li a {color:#252525}
+#sidebar [class^=inya-]{color:#cdcdcd}
+
+#layer{background: rgba(0,0,0,0.4);}

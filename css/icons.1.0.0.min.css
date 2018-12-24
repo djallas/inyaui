@@ -3,12 +3,98 @@
 /* inyauifont */
 @font-face {
   font-family: "inyauifont";
-  src:url("../fonts/icons.eot");
-  src:url("../fonts/icons.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/icons.woff") format("woff"),
-    url("../fonts/icons.ttf") format("truetype"),
-    url("../fonts/icons.svg#1545481199") format("svg");
+  src:url("https://file.myfontastic.com/qXbQo2YJj7ivRTsDYwG7qD/fonts/1545481199.eot");
+  src:url("https://file.myfontastic.com/qXbQo2YJj7ivRTsDYwG7qD/fonts/1545481199.eot?#iefix") format("embedded-opentype"),
+    url("https://file.myfontastic.com/qXbQo2YJj7ivRTsDYwG7qD/fonts/1545481199.woff") format("woff"),
+    url("https://file.myfontastic.com/qXbQo2YJj7ivRTsDYwG7qD/fonts/1545481199.ttf") format("truetype"),
+    url("https://file.myfontastic.com/qXbQo2YJj7ivRTsDYwG7qD/fonts/1545481199.svg#1545481199") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-[class*=" inya-"]:before,[class^=inya-]:before,[data-icon]:before{font-family:inyauifont!important;font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}[data-icon]:before{content:attr(data-icon)}.inya-bell-slash:before{content:"\64"}.inya-bell:before{content:"\66"}.inya-bars:before{content:"\65"}.inya-chevron-right:before{content:"\62"}.inya-chevron-left:before{content:"\63"}.inya-envelope:before{content:"\68"}.inya-google-plus-square:before{content:"\69"}.inya-instagram:before{content:"\6a"}.inya-phone:before{content:"\6b"}.inya-quote-left:before{content:"\6c"}.inya-user:before{content:"\6f"}.inya-unlock:before{content:"\70"}.inya-check:before{content:"\71"}.inya-torsos-male-female:before{content:"\76"}.inya-adjust:before{content:"\77"}.inya-twitter:before{content:"\79"}.inya-facebook:before{content:"\7a"}.inya-search:before{content:"\61"}.inya-app:before{content:"\67"}.inya-calendar:before{content:"\6e"}
+
+[data-icon]:before {
+  font-family: "inyauifont" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="inya-"]:before,
+[class*=" inya-"]:before {
+  font-family: "inyauifont" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.inya-bell-slash:before {
+  content: "\64";
+}
+.inya-bell:before {
+  content: "\66";
+}
+.inya-bars:before {
+  content: "\65";
+}
+.inya-chevron-right:before {
+  content: "\62";
+}
+.inya-chevron-left:before {
+  content: "\63";
+}
+.inya-envelope:before {
+  content: "\68";
+}
+.inya-google-plus-square:before {
+  content: "\69";
+}
+.inya-instagram:before {
+  content: "\6a";
+}
+.inya-phone:before {
+  content: "\6b";
+}
+.inya-quote-left:before {
+  content: "\6c";
+}
+.inya-user:before {
+  content: "\6f";
+}
+.inya-unlock:before {
+  content: "\70";
+}
+.inya-check:before {
+  content: "\71";
+}
+.inya-torsos-male-female:before {
+  content: "\76";
+}
+.inya-adjust:before {
+  content: "\77";
+}
+.inya-twitter:before {
+  content: "\79";
+}
+.inya-facebook:before {
+  content: "\7a";
+}
+.inya-search:before {
+  content: "\61";
+}
+.inya-app:before {
+  content: "\67";
+}
+.inya-calendar:before {
+  content: "\6e";
+}
