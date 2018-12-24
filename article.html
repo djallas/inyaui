@@ -8,14 +8,14 @@
       <meta name="description" content="Welcome to Inyarwanda UI Framework">
       <meta name="keywords" content="Homepage">
       <meta name="author" content="Gilles Kagarama">
-      <link rel="stylesheet" href="css/inya.init.1.0.0.css">
+      <link rel="stylesheet" href="css/inya.init.1.0.1.css">
 </head>
 <body>
    <!-- start header -->
    <header class="black shadow-2">
          <nav>
             <a href="#" class="left black l-padding hide-on-large" onclick="toggleSidebar();return false;">
-               <span class="inya-bars l-text text-white"></span>
+               <span class="inya-menu l-text text-white"></span>
             </a>
             <div class="logo left">
                   <a href="index.html">
@@ -107,10 +107,23 @@
                   Copyright © 2008-2018<br> Inyarwanda Ltd
             </div>
       </footer>
+      <!-- sidebar menu -->
+      <div id="sidebar" class="hide white shadow-4">
+            <a href="#" onclick="closeSidebar();return false;" class="closeSidebar m-text"> <span class="inya-left"></span> </a>
+            <ul class="list-block">
+                  <li><a href="index.html"> <span class="inya-home"></span> Ahabanza</a> </li>
+                  <li><a href="index.html"> <span class="inya-music"></span> Muzika</a> </li>
+                  <li><a href="index.html"> <span class="inya-photo"></span> Amafoto</a> </li>
+                  <li><a href="index.html"> <span class="inya-play"></span> TV</a> </li>
+                  <li><a href="index.html"> <span class="inya-news"></span> Amakuru</a> </li>
+                  <li><a href="index.html"> <span class="inya-message"></span>  Twandikire</a> </li>
+            </ul>                    
+      </div>   
+      <div id="layer" class="hide" onclick="closeSidebar();return false;"></div>  
       <!-- scripts -->
-      <link rel="stylesheet" href="css/inya.ui.1.0.0.css">
-      <link rel="stylesheet" href="css/palette.1.0.0.css">
-      <link rel="stylesheet" href="css/icons.1.0.0.min.css">
+      <link href="https://file.myfontastic.com/qXbQo2YJj7ivRTsDYwG7qD/icons.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/inya.ui.1.0.1.css">
+      <link rel="stylesheet" href="css/palette.1.0.1.css">
       <script src="scripts/scripts.js"></script>
 </body>
 </html>
