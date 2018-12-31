@@ -1,1 +1,124 @@
-https://file.myfontastic.com/qXbQo2YJj7ivRTsDYwG7qD/icons.css
+@charset "UTF-8";
+
+/* inyauifont */
+@font-face {
+  font-family: "inyauifont";
+  src:url("https://file.myfontastic.com/qXbQo2YJj7ivRTsDYwG7qD/fonts/1545649599.eot");
+  src:url("https://file.myfontastic.com/qXbQo2YJj7ivRTsDYwG7qD/fonts/1545649599.eot?#iefix") format("embedded-opentype"),
+    url("https://file.myfontastic.com/qXbQo2YJj7ivRTsDYwG7qD/fonts/1545649599.woff") format("woff"),
+    url("https://file.myfontastic.com/qXbQo2YJj7ivRTsDYwG7qD/fonts/1545649599.ttf") format("truetype"),
+    url("https://file.myfontastic.com/qXbQo2YJj7ivRTsDYwG7qD/fonts/1545649599.svg#1545649599") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "inyauifont" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="inya-"]:before,
+[class*=" inya-"]:before {
+  font-family: "inyauifont" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.inya-bell-slash:before {
+  content: "\64";
+}
+.inya-bell:before {
+  content: "\66";
+}
+.inya-menu:before {
+  content: "\65";
+}
+.inya-right:before {
+  content: "\62";
+}
+.inya-left:before {
+  content: "\63";
+}
+.inya-message:before {
+  content: "\68";
+}
+.inya-gplus:before {
+  content: "\69";
+}
+.inya-instagram:before {
+  content: "\6a";
+}
+.inya-phone:before {
+  content: "\6b";
+}
+.inya-quote-left:before {
+  content: "\6c";
+}
+.inya-user:before {
+  content: "\6f";
+}
+.inya-unlock:before {
+  content: "\70";
+}
+.inya-check:before {
+  content: "\71";
+}
+.inya-users:before {
+  content: "\76";
+}
+.inya-twitter:before {
+  content: "\79";
+}
+.inya-facebook:before {
+  content: "\7a";
+}
+.inya-search:before {
+  content: "\61";
+}
+.inya-app:before {
+  content: "\67";
+}
+.inya-calendar:before {
+  content: "\6e";
+}
+.inya-home:before {
+  content: "\72";
+}
+.inya-music:before {
+  content: "\6d";
+}
+.inya-photo:before {
+  content: "\73";
+}
+.inya-play:before {
+  content: "\74";
+}
+.inya-news:before {
+  content: "\75";
+}
+.inya-times:before {
+  content: "\77";
+}
+.inya-clock:before {
+  content: "\78";
+}
+.inya-news-1:before {
+  content: "\41";
+}
+.inya-comment:before {
+  content: "\42";
+}
